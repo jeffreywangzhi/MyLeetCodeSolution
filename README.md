@@ -1,2 +1,2 @@
 # MyLeetCodeSolution
-Jeffrey's leetCode solution.
+Jeffrey's leetCode solution with Java.
