@@ -58,3 +58,58 @@
 435. Non-overlapping Intervals
 14. Longest Common Prefix
 540. Single Element in a Sorted Array
+*Day 4* 28. Find the Index of the First Occurrence in a String
+543. Diameter of Binary Tree
+54. Spiral Matrix
+70. Climbing Stairs
+75. Sort Colors
+92. Reverse Linked List II
+103. Binary Tree Zigzag Level Order Traversal
+2055. Plates Between Candles
+632. Smallest Range Covering Elements from K Lists
+2560. House Robber IV
+189. Rotate Array
+202. Happy Number
+212. Word Search II
+1642. Furthest Building You Can Reach
+235. Lowest Common Ancestor of a Binary Search Tree
+2221. Find Triangular Sum of an Array
+787. Cheapest Flights Within K Stops
+873. Length of Longest Fibonacci Subsequence ## PENDING
+875. Koko Eating Bananas
+*Day 5* 1358. Number of Substrings Containing All Three Characters
+7. Reverse Integer
+8. String to Integer (atoi)
+11. Container With Most Water
+13. Roman to Integer
+12. Integer to Roman
+46. Permutations
+1492. The kth Factor of n
+53. Maximum Subarray
+64. Minimum Path Sum
+67. Add Binary
+76. Minimum Window Substring ## PENDING
+78. Subsets
+86. Partition List
+2594. Minimum Time to Repair Carss
+130. Surrounded Regions
+658. Find K Closest Elements
+150. Evaluate Reverse Polish Notation
+151. Reverse Words in a String
+152. Maximum Product Subarray ## PENDING
+224. Basic Calculator ## PENDING
+*Day 6* 146. LRU Cache
+1. Two Sum
+200. Number of Islands
+33. Search in Rotated Sorted Array
+767. Reorganize String
+2. Add Two Numbers
+23. Merge k Sorted Lists
+42. Trapping Rain Water
+49. Group Anagrams
+210. Course Schedule II
+3. Longest Substring Without Repeating Characters
+15. 3Sum
+295. Find Median from Data Stream
+1152. Analyze User Website Visit Pattern ## PENDING
+127. Word Ladder
