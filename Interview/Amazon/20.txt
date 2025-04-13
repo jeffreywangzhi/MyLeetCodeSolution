@@ -75,7 +75,7 @@
 235. Lowest Common Ancestor of a Binary Search Tree
 2221. Find Triangular Sum of an Array
 787. Cheapest Flights Within K Stops
-873. Length of Longest Fibonacci Subsequence ## PENDING
+873. Length of Longest Fibonacci Subsequence
 875. Koko Eating Bananas
 *Day 5* 1358. Number of Substrings Containing All Three Characters
 7. Reverse Integer
@@ -88,7 +88,7 @@
 53. Maximum Subarray
 64. Minimum Path Sum
 67. Add Binary
-76. Minimum Window Substring ## PENDING
+76. Minimum Window Substring
 78. Subsets
 86. Partition List
 2594. Minimum Time to Repair Carss
@@ -96,8 +96,8 @@
 658. Find K Closest Elements
 150. Evaluate Reverse Polish Notation
 151. Reverse Words in a String
-152. Maximum Product Subarray ## PENDING
-224. Basic Calculator ## PENDING
+152. Maximum Product Subarray
+224. Basic Calculator
 *Day 6* 146. LRU Cache
 1. Two Sum
 200. Number of Islands
@@ -111,5 +111,10 @@
 3. Longest Substring Without Repeating Characters
 15. 3Sum
 295. Find Median from Data Stream
-1152. Analyze User Website Visit Pattern ## PENDING
+1152. Analyze User Website Visit Pattern
 127. Word Ladder
+138. Copy List with Random Pointer
+198. House Robber
+79. Word Search
+88. Merge Sorted Array
+207. Course Schedule
