@@ -6,11 +6,6 @@ class TimeMap {
     
     public void set(String key, String value, int timestamp) {
         dataMap.computeIfAbsent(key, k -> new TreeMap<>()).put(timestamp, value);
-        // if ( !dataMap.containsKey(key) ) {
-        //     TreeMap<Integer,String> innermap = new TreeMap<>();
-        //     innermap.put(timestamp,value);
-        //     dataMap.put(key,innermap);
-        // } else dataMap.get(key).put(timestamp,value);
     }
     
     public String get(String key, int timestamp) {
