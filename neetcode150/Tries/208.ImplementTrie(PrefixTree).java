@@ -1,25 +1,52 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public boolean isValidBST(TreeNode root) {
-        return isValid(root,Long.MIN_VALUE,Long.MAX_VALUE);
+class Trie {
+    private class Node {
+        boolean isWord;
+        HashMap<Character,Node> child;
+        private Node(boolean isWord) {
+            this.isWord = isWord;
+            this.child = new HashMap<>();
+        }
     }
-    private boolean isValid(TreeNode root, long min, long max) {
-        if ( root == null ) return true;
-        if ( root.val >= max || root.val <= min ) return false;
-        return isValid(root.left,min,root.val) && isValid(root.right,root.val,max);
+    Node root;
+    public Trie() {
+        root = new Node(false);
+    }
+    
+    public void insert(String word) {
+        Node cur = root;
+        for ( int i = 0; i < word.length(); i++ ) {
+            char c = word.charAt(i);
+            if ( !cur.child.containsKey(c) ) cur.child.put(c,new Node(false));
+            cur = cur.child.get(c);
+        }
+        cur.isWord = true;
+    }
+    
+    public boolean search(String word) {
+        Node cur = root;
+        for ( int i = 0; i < word.length(); i++ ) {
+            char c = word.charAt(i);
+            if ( !cur.child.containsKey(c) ) return false;
+            else cur = cur.child.get(c);
+        }
+        return cur.isWord;
+    }
+    
+    public boolean startsWith(String prefix) {
+        Node cur = root;
+        for ( int i = 0; i < prefix.length(); i++ ) {
+            char c = prefix.charAt(i);
+            if ( !cur.child.containsKey(c) ) return false;
+            else cur = cur.child.get(c);
+        }
+        return true;
     }
 }
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * boolean param_2 = obj.search(word);
+ * boolean param_3 = obj.startsWith(prefix);
+ */
