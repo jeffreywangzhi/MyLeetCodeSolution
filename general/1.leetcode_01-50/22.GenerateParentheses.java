@@ -19,5 +19,4 @@ class Solution {
             recurse(res, left, right + 1, s + ")", n);
         }
     }
-	// See above tree diagram with parameters (left, right, s) for better understanding
 }
