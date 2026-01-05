@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: self-hosted
+  name: cicd-agent
 
 steps:
 - script: echo Hello, world!
